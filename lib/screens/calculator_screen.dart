@@ -8,7 +8,7 @@ class CalculatorScreen extends StatefulWidget {
 
 class _CalculatorScreenState extends State<CalculatorScreen> {
   String input = '';
-  String result = '';git
+  String result = '';
 
   void buttonPressed(String value) {
     setState(() {
