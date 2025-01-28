@@ -18,6 +18,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       }else if(value == 'del'){
         if(input.isNotEmpty){
           input = input.substring(0, input.length - 1);
+          result = "";
         }
       } else if (value == '=') {
         try {
